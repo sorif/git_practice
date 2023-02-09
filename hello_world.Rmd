@@ -1,0 +1,4 @@
+print("hello world")
+
+Niki <- c(1,2,3)
+Niki
