@@ -21,7 +21,7 @@
 # resulting table is converted to a tibble data structure and joined with gene 
 # annotation information from `gene_lookup` using the `left_join` function. The 
 # resulting data frame is then modified to add a column indicating the row 
-# number (`hit_num`).jh
+# number (`hit_num`).jh another test
 do_medium_analysis <- function(filename, reference_passage) {
   int_design <- model.matrix(~ passage * protocol,
                              data = sample_lookup |>
